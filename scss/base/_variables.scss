@@ -1,0 +1,40 @@
+// media query breakpoints
+
+
+
+$break-small: 320px;
+$break-medium: 599px;
+$break-large: 1200px;
+
+
+
+$button-text-color: #484459;
+$title-color-dark: #413D53;
+$title-color-bright: #ffffff;
+$text-color: #484459;
+$border-color: rgba(144, 144, 144, 0.25);
+$hover-color: rgba(144, 144, 144, 0.075);
+$button-color: #7c759a;
+$icon-color: #c2bedd;
+$one-color: #60a9b7;
+$two-color: #777296;
+$four-color: #8895bd;
+$border-right-color: rgba(255, 255, 255, 0.075);
+$border-top-color: rgba(144, 144, 144, 0.15);
+$social: #999;
+
+
+
+
+
+
+$title-font: '"MontserratRegular", "Helvetica Neue", Helvetica, sans-serif';
+$text-font:  '"MontserratRegular", "Helvetica Neue", Helvetica, sans-serif';
+
+
+
+
+$information-phone: "only screen and (min-device-width: 320px) and (max-device-height: 768px)";
+$information-tablet: "only screen and (min-device-width: 768px) and (max-device-height: 992px)";
+$information-desktop: "only screen and (min-device-height: 992px)";
+

@@ -1,0 +1,14 @@
+@mixin font-face($family){
+	font-family: $family;
+}
+
+@mixin text($size, $l-height, $color, $style, $margin, $transform, $weight, $letter-spacing){
+	font-size: $size;
+	line-height: $l-height;
+	color: $color;
+	font-style: $style;
+	text-transform: $transform;
+	font-weight: $weight;
+	letter-spacing: $letter-spacing;
+}
+

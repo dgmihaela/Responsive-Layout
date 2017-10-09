@@ -1,0 +1,67 @@
+// Calcucate grid columns
+
+/*[class*='col-'] {
+    float: left;
+    margin-right: 2%;
+    	&:last-child{
+    		margin-right: 0;
+    	}
+    }
+
+
+
+// .col-1  { width:5.583333333333333%; }
+// .col-2  { width:14.16666666666667%; }
+// .col-3  { width:22.75%; }
+// .col-4  { width:31.33333333333333%; }
+// .col-5  { width:39.91666666666667%; }
+// .col-6  { width:48.5%; }
+// .col-7  { width:57.08333333333333%; }
+// .col-8  { width:65.66666666666666%; }
+// .col-9  { width:74.25%; }
+// .col-10 { width:82.83333333333333%; }
+// .col-11 { width:91.41666666666666%; }
+// .col-12 { width:100%; }
+
+
+
+$width: 100%;
+$gutter: 4%;
+
+
+
+
+
+.col-1-sm { width:($width / 12) - ($gutter * 11 / 12); }
+.col-2-sm { width: ($width / 6) - ($gutter * 10 / 12); }
+.col-3-sm { width: ($width / 4) - ($gutter * 9 / 12); }
+.col-4-sm { width: ($width / 3) - ($gutter * 8 / 12); }
+.col-5-sm { width: ($width / (12 / 5)) - ($gutter * 7 / 12); }
+.col-6-sm { width: ($width / 2) - ($gutter * 6 / 12); }
+.col-7-sm { width: ($width / (12 / 7)) - ($gutter * 5 / 12); }
+.col-8-sm { width: ($width / (12 / 8)) - ($gutter * 4 / 12); }
+.col-9-sm { width: ($width / (12 / 9)) - ($gutter * 3 / 12); }
+.col-10-sm { width: ($width / (12 / 10)) - ($gutter * 2 / 12); }
+.col-11-sm { width: ($width / (12 / 11)) - ($gutter * 1 / 12); }
+.col-12-sm { width: $width; }
+
+@media only screen and (min-width: $break-medium) {
+  .col-1 { width:($width / 12) - ($gutter * 11 / 12); }
+  .col-2 { width: ($width / 6) - ($gutter * 10 / 12); }
+  .col-3 { width: ($width / 4) - ($gutter * 9 / 12); }
+  .col-4 { width: ($width / 3) - ($gutter * 8 / 12); }
+  .col-5 { width: ($width / (12 / 5)) - ($gutter * 7 / 12); }
+  .col-6 { width: ($width / 2) - ($gutter * 6 / 12); }
+  .col-7 { width: ($width / (12 / 7)) - ($gutter * 5 / 12); }
+  .col-8 { width: ($width / (12 / 8)) - ($gutter * 4 / 12); }
+  .col-9 { width: ($width / (12 / 9)) - ($gutter * 3 / 12); }
+  .col-10 { width: ($width / (12 / 10)) - ($gutter * 2 / 12); }
+  .col-11 { width: ($width / (12 / 11)) - ($gutter * 1 / 12); }
+  .col-12 { width: $width; }
+}
+*/
+
+
+
+
+

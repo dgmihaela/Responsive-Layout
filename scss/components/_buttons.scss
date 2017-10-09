@@ -1,0 +1,245 @@
+.buttons-right{
+	padding: 0;
+	float: right;
+
+	@media #{$information-phone} {
+	   margin-right: 2rem;
+	}
+	
+
+}
+.log-in_wrapper{
+	font-size: 0.8rem;
+	font-weight: 400;
+	letter-spacing: 0.13rem;
+	height: 3rem;
+	line-height: 3;
+	text-transform: uppercase;
+	color: #7c759a;
+	font-family: "SourceSansPro-Regular", Arial, Helvetica, sans-serif !important;
+	margin-right: 1rem;
+
+	@media #{$information-phone} {
+	   font-size: 0.7rem;
+	   padding: 0;
+	   margin-right: 0.5rem;
+	}
+	@media #{$information-tablet} {
+	     margin-right: 0.5rem;
+	      padding: 0;
+	}
+	@media #{$information-desktop} {
+	    
+	}
+}
+
+.sign-up_wrapper{
+	font-size: 0.8rem;
+	font-weight: 400;
+	letter-spacing: 0.13rem;
+	height: 3rem;
+	line-height: 3;
+	text-transform: uppercase;
+	color: $button-color;
+	font-family: "SourceSansPro-Regular", Arial, Helvetica, sans-serif !important;
+	padding: 0.9rem 1.2rem 0.9rem 1.2rem;
+	border-radius:5px;
+	border: 2px solid $border-color; 
+	background-color: transparent;
+	
+
+	&:hover{
+		background-color: $hover-color;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		color: $button-color;
+	}
+	@media #{$information-phone} {
+   		font-size: 0.7rem;
+  	}
+  	@media #{$information-tablet} {
+     
+  	}
+  	@media #{$information-desktop} {
+     
+  	}
+}
+
+#menu-toggle{
+
+	margin-left: 2rem;
+	float: left;
+
+	a{
+		font-family: "SourceSansPro-Regular", Arial, Helvetica, sans-serif !important;
+		@include text(rem(15), 1.5, $button-color, nornal, 0, uppercase, 300, none);
+
+			&:before{
+			content: '\f0c9';
+			margin: 0 0.5em 0 0;
+			font-family: FontAwesome;
+			-webkit-font-smoothing: antialiased;
+		}
+	}
+}
+
+
+
+.button{
+	font-family: "SourceSansPro-Regular", Arial, Helvetica, sans-serif !important;
+	background-color: transparent;
+	border: 2px solid $border-color;
+	@include text(rem(15), 1.5, $button-color, normal, 0, uppercase, 300, rem(2))
+	padding: 0.9rem 2rem;
+	border-radius: 5px;
+	margin-bottom: 3rem;
+	font-size: 0.9rem;
+	font-weight: 400;
+
+	&:hover{
+		background-color: $hover-color;
+		color: $button-color;
+	}
+	@media #{$information-phone} {
+   		padding: 0.9rem 6rem;
+  	}
+  		@media #{$information-tablet} {
+   		padding: 0.9rem 2rem;
+  	}
+}
+
+.fa-code{
+	color: $icon-color;
+	font-size: 5rem;
+	display: block;
+}
+.fa-cubes, .fa-cloud{
+	color: $icon-color;
+	font-size: 3.5rem;
+	display: block;
+	margin-bottom: 2rem;
+
+	@media #{$information-phone} {
+	  font-size: 2.5rem;
+	}
+}
+.fa-diamond, .fa-camera-retro{
+	color: $icon-color;
+	font-size: 3.5rem;
+	display: block;
+	margin-bottom: 2rem;
+
+	@media #{$information-phone} {
+	  font-size: 2.5rem;
+	}
+}
+
+.art__two{
+	a{
+	border-color: rgba(255, 255, 255, 0.15);
+	color: #fff !important;
+	}
+}
+.three-button{
+	margin: 0 auto;
+	float: none;
+	text-align: center;
+	margin-top: 5rem;
+
+	@media #{$information-phone} {
+	  margin-top: 2rem;
+	}
+}
+.input{
+	a{
+	border-color: rgba(255, 255, 255, 0.15);
+	color: #fff !important;
+	margin-top: 3rem;
+	display: block;
+	width: 12rem;
+
+		&:hover{
+		background-color: $border-right-color;
+		color: $button-color;
+		}
+
+		@media #{$information-phone} {
+		  width: 100%;
+		  padding: 0.7rem 5rem;
+		}
+
+		@media #{$information-tablet} {
+		  
+		}
+	}
+}
+.fa-twitter, .fa-phone, .fa-envelope, .fa-github, .fa-linkedin, .fa-facebook{
+	color: $social;
+	font-size: 1.35rem;
+}
+.btn-default{
+	background-color: transparent;
+}
+.btn-group{
+	margin-bottom: 4rem;
+
+	@media #{$information-phone} {
+	 margin-bottom: 2rem;
+	}
+}
+
+.nav-logIn{
+   
+    a{
+        font-family: "SourceSansPro-Regular", Arial, Helvetica, sans-serif !important;
+		background-color: transparent;
+		border: 2px solid $border-color;
+		@include text(rem(15), 1.5, $button-color, normal, 0, uppercase, 400, rem(2))
+		padding: 0.9rem 2rem;
+		border-radius: 5px;
+		margin-bottom: 3rem;
+		width: 18rem;
+		display: block;
+		text-align: center;
+
+		&:hover{
+			background-color: $hover-color;
+			color: $button-color;
+		}
+
+		@media #{$information-phone} {
+     		width: 14.3rem;
+    	}
+            
+    }
+}
+
+
+.nav-signUp{
+	margin-top: 2rem;
+
+	a{
+        background-color: $button-text-color;
+        font-family: "SourceSansPro-Regular", Arial, Helvetica, sans-serif !important;
+		border: 2px solid;
+		@include text(rem(15), 1.5, $title-color-bright, normal, 0, uppercase, 400, rem(2))
+		padding: 0.9rem;
+		border-radius: 5px;
+		margin-bottom: 3rem;
+		width: 18rem;
+		display: block;
+		text-align: center;
+
+		&:hover{
+			background-color: #413D53;
+			color: #fff;
+		}
+		
+		@media #{$information-phone} {
+     		width: 14.3rem;
+    	}
+            
+    }
+
+}

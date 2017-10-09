@@ -1,0 +1,84 @@
+h1{
+    @include text(rem(40), 1.5, $title-color-dark, normal, 0, uppercase, 400, rem(9));
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    position: relative;
+}
+h1:before{
+    left: calc(50% - 1px);
+    content: '';
+    position: absolute;
+    opacity: 0.2;
+    background-color: $title-color-dark;
+    bottom: -4px;
+    height: 10px;
+    width: 2px;
+}
+h1:after{
+    left: calc(50% - 30px);
+    bottom: 0;
+    height: 2px;
+    width: 60px;
+    content: '';
+    position: absolute;
+    opacity: 0.2;
+    background-color: $title-color-dark;
+}
+h2{
+    @include text(rem(37), 1.5, $title-color-bright, normal, 0, uppercase, 400, rem(9));
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+
+    @media #{$information-phone} {
+        @include text(rem(30), 1.5, $title-color-bright, normal, 0, uppercase, 400, rem(5));
+    }
+}
+h2:before{
+    left: calc(50% - 1px);
+    content: '';
+    position: absolute;
+    opacity: 0.2;
+    background-color: $title-color-dark;
+    bottom: -4px;
+    height: 10px;
+    width: 2px;
+}
+h2:after{
+    left: calc(50% - 30px);
+    bottom: 0;
+    height: 2px;
+    width: 60px;
+    content: '';
+    position: absolute;
+    opacity: 0.2;
+    background-color: $title-color-dark;
+}
+/*
+h3{
+     @include text(rem(37), 1.5, $title-color-bright, normal, 0, uppercase, 400, rem(9));
+   
+}
+*/
+h4{
+    @include text(rem(20), 1.5, $title-color-dark, normal, 0, uppercase, 400, rem(5));
+ 	margin-bottom: 1.5rem;   
+
+    @media #{$information-phone} {
+         @include text(rem(18), 1.5, $title-color-dark, normal, 0, uppercase, 400, rem(5));
+    }
+}
+
+h1, h2, h3, h4{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.major-three h2{
+	@include text(rem(37), 1.5, $title-color-dark, normal, 0, uppercase, 400, rem(9));
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+
+    @media #{$information-phone} {
+        @include text(rem(30), 1.5, $title-color-dark, normal, 0, uppercase, 400, rem(9));
+    }
+ }

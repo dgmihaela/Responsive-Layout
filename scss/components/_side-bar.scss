@@ -1,0 +1,137 @@
+#menu{
+  position: absolute;
+  left: 20rem;
+  top: 1.5rem;
+  color: $border-color;
+
+  @media #{$information-phone} {
+    left: 16rem;
+  }
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+
+   @media #{$information-phone} {
+   padding-left: 0;
+  }
+   @media #{$information-tablet} {
+    padding-left: 15.6rem;
+  }
+   @media #{$information-desktop} {
+    padding-left: 15.6rem;
+  }
+
+}
+
+#sidebar-wrapper {
+  z-index: 10002;
+  position: fixed;
+  left: 15.6rem;
+  height: 100%;
+  margin-left: -15.6rem;
+  overflow-y: auto;
+  background: #fff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.1);
+
+    @media #{$information-phone} {
+    width: 0;
+    left: 15.6rem;
+    margin-left: -15.6rem;
+  }
+  @media #{$information-tablet} {
+     width: 0;
+  }
+  @media #{$information-desktop} {
+     width: 0;
+  }
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 24rem;
+}
+
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    margin: 3rem 3rem 0 3rem;
+    padding: 0;
+    list-style: none;
+
+    li {
+    line-height: 40px;
+    display: block;
+    border-bottom: 1px solid $border-color;
+    padding: 0.5rem 0 0.5rem 0;
+
+      a {
+      display: block;
+      text-decoration: none;
+      color: $button-text-color;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+     
+      &:active,
+      &:focus {
+        text-decoration: none;
+      }
+      @media #{$information-phone} {
+        font-size: 0.95rem;
+    }
+
+    }
+     &:last-child{
+        border: none;
+      } 
+  }
+}
+
+.nav-btn{
+  margin: 1.5rem 0 0 3rem;
+
+  li{
+    display: block;
+  }
+}
+
+
+
+#wrapper {
+  padding-left: 0;
+}
+
+
+
+#wrapper.toggled #sidebar-wrapper {
+  @media #{$information-phone} {
+    width: 20rem;
+  }
+   @media #{$information-tablet} {
+     width: 24rem;
+  }
+   @media #{$information-desktop} {
+     width: 24rem;
+  }
+
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+   @media #{$information-phone} {
+      position: relative;
+      margin-right: 0;
+  }
+
+}
+

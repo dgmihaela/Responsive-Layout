@@ -1,0 +1,36 @@
+.footer{
+	padding: 7rem 0;
+
+	p{
+		font-size: 1rem;
+
+		@media #{$information-phone} {
+		 	font-size: 0.9rem;
+		}
+	}
+
+	@media #{$information-phone} {
+	  padding: 3rem 2rem;
+	}
+}
+.footer-menu{
+	margin-bottom: 1.5rem;
+
+	li{
+		padding: 0 1rem 0 1rem;
+		border-right: 1px solid $border-color;
+
+		&:last-child{
+			border-right: none;
+		}
+
+		a{
+			color: $button-color;
+			font-size: 1rem;
+
+			@media #{$information-phone} {
+		 		font-size: 0.9rem;
+			}
+		}
+	}
+}
